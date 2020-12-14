@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace feedback_in_bruteforce_app_creation
+namespace Possible_combinations
 {
     class Program
     {
