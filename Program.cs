@@ -15,10 +15,11 @@ namespace Possible_combinations
             for (int j = 1; j < m + 1; j++)
                 for (int i = 0; i < Math.Pow(p, j); i++)
                 {
-                    for (int k = 1; k < j + 1; k++) //Console.WriteLine();
+                    //main output
+                    for (int k = 1; k < j + 1; k++) 
                         Console.Write((char)((i / Math.Pow(p, k - 1) % p) + 'a'));
                    
-                    //Console.Write((char)((i % 2 )+'a'));
+                    //Logic debugging outputs
 
 
                     Console.Write(" | ");
